@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+onnx = "*"
+onnxruntime-gpu = "*"
+ortei = "*"
+torch = "*"
+
+[dev-packages]
+albumentations = "*"
+tqdm = "*"
+
+[requires]
+python_version = "3.8"
+python_full_version = "3.8.10"
